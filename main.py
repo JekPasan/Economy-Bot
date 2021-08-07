@@ -5,7 +5,7 @@ from coin import Coin
 client = discord.Client()
 token = ""
 with open("token.txt") as token_file:
-    token = token_file.read()
+    token = token_file.read() # no access for you
 
 help_embed = discord.Embed(
     title="Help",
